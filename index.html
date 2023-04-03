@@ -4,42 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rise's site!</title>
-    <link rel="stylesheet" href="/site/src/style.css">
-    <link rel="shortcut icon" href="/site/src/assets/pfp.ico" type="image/x-icon">
-    <meta content="rise!" property="og:title" />
-    <meta content="my own site!" property="og:description" />
-    <meta content="https://rise-z.github.io/site/" property="og:url" />
-    <meta content="https://rise-z.github.io/site/src/assets/pfp.webp" property="og:image" />
-    <meta content="#3c915a" data-react-helmet="true" name="theme-color" />
+    <title>rise!</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="shortcut icon" href="assets/pfp.ico" type="image/x-icon">
+    <script src="src/index.js" defer></script>
+    <script src="src/particles.min.js" defer></script>
 </head>
 <body>
-    <div id="content">
-        <div id="navigation">
-            <h3>navigation</h3>
-            <nav>
-                <ul>
-                    <li><a href="/site/">home</a></li>
-                    <li><a href="/site/src/content/aboutMe.html">about me</a></li>
-                    <li><a href="/site/src/content/blog.html">blog</a></li>
-                    <li><a href="/site/src/content/tools.html">tools</a></li>
-                </ul>
-            </nav>
+    <audio id="song" loop>
+        <source src="assets/music.mp3" type="audio/mpeg">
+    </audio>
+    <div id="particles-js"></div>
+    <div id="overlay">
+        <h1 id="overlay-message">press anywhere to continue.</h1>
+    </div>
+    <div id="main">
+        <img id="pfp" src="assets/pfp.jpg" alt="pfp">
+        <div id="card">
+            <h1 id="name">rise!</h1>
+            <h2>schizophrenic developer</h2>
+            <h3>mentally insane</h3>
+            <h4>literal /g/ meme</h4>
         </div>
-        <div id="main">
-            <h1>rise!</h1>
-            <h2>mentally deranged developer</h2>
-            <hr>
-            <img src="/site/src/assets/pfp.webp" alt="pfp" id="pfp">
-            <h3>hello, i am rise! im a 14 year old developer, for more info go <a href="/site/src/content/aboutMe.html">here.</a></h3>
-            <footer>
-                <hr>
-                <a href="https://github.com/rise-z">github</a>
-                <a href="https://www.youtube.com/channel/UCII2k-_K49TJ7Kz3Wh6ALqA">youtube</a>
-                <a href="https://www.last.fm/user/r_ise">last.fm</a>
-                <p>contact me at rise#0002</p>
-                <p>made with love in the <a href="https://en.wikipedia.org/wiki/United_States">usa</a> | powered by <a href="https://github.com/rise-z/site">github</a></p>
-            </footer>
+        <div id="links">
+            <a href="/">github</a>
+            <a href="last.fm">last.fm</a>
+            <a href="https://www.youtube.com/channel/UCII2k-_K49TJ7Kz3Wh6ALqA">youtube</a>
         </div>
     </div>
 </body>
