@@ -1,0 +1,63 @@
+:root {
+    --main-bg-color: #000000;
+    --main-txt-color: #dbdbdb;
+    --main-link-color: #919191;
+    --glow-color: #ad2a2a;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    font-family: monospace;
+    overflow: hidden;
+}
+
+#overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#overlay-message {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#pfp {
+    width: 175px;
+    box-shadow: 0px 0px 25px var(--glow-color);
+}
+
+#card {
+    float: right;
+    margin-left: 20px;
+    filter: drop-shadow(10px 10px 2px var(--glow-color));
+}
+
+a {
+    color: var(--main-link-color);
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: var(--glow-color);
+}
+
+#links {
+    text-align: center;
+}
