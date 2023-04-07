@@ -5,6 +5,7 @@
 ### about
 this is my website! mainly just a basic info center.
 
+![https://github.com/rise-z/site/blob/main/LICENSE](https://img.shields.io/github/license/rise-z/site?color=%23ad2a2a&style=for-the-badge)
 ![](https://img.shields.io/github/languages/code-size/rise-z/site?color=%23ad2a2a&style=for-the-badge)
 ![](https://img.shields.io/github/directory-file-count/rise-z/site?color=%23ad2a2a&style=for-the-badge)
 ![](https://img.shields.io/github/languages/top/rise-z/site?color=%23ad2a2a&style=for-the-badge)
@@ -14,6 +15,3 @@ this is my website! mainly just a basic info center.
 [Vincent Garreau](https://github.com/VincentGarreau) for [particles.js](https://github.com/VincentGarreau/particles.js)
 
 [Zalinki](https://soundcloud.com/sacri-stuff) for [the song used](https://soundcloud.com/zalinki/insane)
-
-### license
-![https://github.com/rise-z/site/blob/main/LICENSE](https://img.shields.io/github/license/rise-z/site?color=%23ad2a2a&style=for-the-badge)
