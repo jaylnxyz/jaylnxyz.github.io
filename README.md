@@ -13,7 +13,7 @@ this is my website! mainly just a basic info center.
 ### credit
 [Vincent Garreau](https://github.com/VincentGarreau) for [particles.js](https://github.com/VincentGarreau/particles.js)
 
-[sacristuff](https://soundcloud.com/sacri-stuff) for [the song used](https://soundcloud.com/sacri-stuff/obs-soundtrack-volume-2-happy-stars-rage)
+[Zalinki](https://soundcloud.com/sacri-stuff) for [the song used](https://soundcloud.com/zalinki/insane)
 
 ### license
 ![https://github.com/rise-z/site/blob/main/LICENSE](https://img.shields.io/github/license/rise-z/site?color=%23ad2a2a&style=for-the-badge)
