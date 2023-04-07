@@ -1,5 +1,4 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/rise-z/site/main/assets/pfp.jpg" alt="" width="200">
     <h1>rise! 🍉</h1>
 </div>
 
