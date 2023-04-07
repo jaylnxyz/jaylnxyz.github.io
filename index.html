@@ -5,37 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rise!</title>
+
     <link rel="stylesheet" href="src/style.css">
-    <link rel="shortcut icon" href="assets/pfp.ico" type="image/x-icon">
     <script src="src/index.js" defer></script>
     <script src="src/particles.min.js" defer></script>
+
     <meta content="rise!" property="og:title" />
     <meta content="my own site." property="og:description" />
     <meta content="https://rise-z.github.io/site/" property="og:url" />
-    <meta content="https://rise-z.github.io/site/assets/pfp.jpg" property="og:image" />
     <meta content="#ad2a2a" data-react-helmet="true" name="theme-color" />
 </head>
 <body>
-    <audio id="song" loop>
+    <audio id="music" loop>
         <source src="assets/music.mp3" type="audio/mpeg">
     </audio>
+    <div id="start">
+        <h1 id="start-message">press anywhere to continue</h1>
+    </div>
+    <div id="card">
+        <h1 id="main-card">rise!</h1>
+    </div>
+    <div id="socials">
+        <a href="https://github.com/rise-z">github</a>
+        <a href="https://www.last.fm/user/r_ise">last.fm</a>
+        <a href="https://www.youtube.com/channel/UCII2k-_K49TJ7Kz3Wh6ALqA">youtube</a>
+    </div>
     <div id="particles-js"></div>
-    <div id="overlay">
-        <h1 id="overlay-message">press anywhere to continue.</h1>
-    </div>
-    <div id="main">
-        <img id="pfp" src="assets/pfp.jpg" alt="pfp">
-        <div id="card">
-            <h1 id="name">rise!</h1>
-            <h2>schizophrenic developer</h2>
-            <h3>mentally insane</h3>
-            <h4>literal /g/ meme</h4>
-        </div>
-        <div id="links">
-            <a href="https://github.com/rise-z">github</a>
-            <a href="https://www.last.fm/user/r_ise">last.fm</a>
-            <a href="https://www.youtube.com/channel/UCII2k-_K49TJ7Kz3Wh6ALqA">youtube</a>
-        </div>
-    </div>
 </body>
 </html>
