@@ -1,15 +1,15 @@
-const mainCard = document.getElementById('main-card');
-const music = document.getElementById('music');
+const mainCard = document.getElementById("main-card");
+const music = document.getElementById("music");
 
 Number.prototype.clamp = function(min, max) {
     return Math.min(Math.max(this, min), max);
 };
 
 function startPage() {
-    document.getElementById('start').style.display = 'none';
+    document.getElementById("start").style.display = "none";
 
-    document.getElementById('card').style.display = 'inline';
-    document.getElementById('socials').style.display = 'inline';
+    document.getElementById("card").style.display = "inline";
+    document.getElementById("socials").style.display = "inline";
 
     const audioContext = new AudioContext();
     const source = audioContext.createMediaElementSource(music);
@@ -33,31 +33,31 @@ function startPage() {
         mainCard.style.fontSize = `${average.clamp(10, 150)}px`;
     }, 10)
 
-    particlesJS.load('particles-js', 'assets/particles.json');
+    particlesJS.load("particles-js", "assets/particles.json");
 
-    document.removeEventListener('click', startPage);
+    document.removeEventListener("click", startPage);
 }
 
-document.addEventListener('click', startPage);
+document.addEventListener("click", startPage);
 
 function sleep(milliseconds) {
     return new Promise(resolve => setTimeout(resolve, milliseconds));
 }
 
 async function slideText(slidingMode, destination, result) {
-    if (slidingMode == 'ending') {
+    if (slidingMode == "ending") {
         for (let i = 0; i < destination.length; i++) {
             result = result.slice(0, -1);
             
-            document.title = result || '​';
+            document.title = result || "​";
             window.location.href = `#${result}`;
 
             await sleep(50);
         }
 
-        slideText('starting', destination, result);
+        slideText("starting", destination, result);
     } 
-    else if (slidingMode == 'starting') {
+    else if (slidingMode == "starting") {
         for (let i of destination) {
             result += i;
 
@@ -67,8 +67,8 @@ async function slideText(slidingMode, destination, result) {
             await sleep(50);
         }
 
-        slideText('ending', destination, result);
+        slideText("ending", destination, result);
     }
 }
 
-slideText('starting', 'rise-z.github.io/site/', '');
+slideText("starting", "rise-z.github.io/site/", "");
