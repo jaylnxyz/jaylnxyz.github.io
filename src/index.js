@@ -50,8 +50,6 @@ async function slideText(slidingMode, destination, result) {
             result = result.slice(0, -1);
             
             document.title = result || "​";
-            window.location.href = `#${result}`;
-
             await sleep(50);
         }
 
@@ -62,8 +60,6 @@ async function slideText(slidingMode, destination, result) {
             result += i;
 
             document.title = result;
-            window.location.href = `#${result}`;
-            
             await sleep(50);
         }
 
@@ -71,4 +67,4 @@ async function slideText(slidingMode, destination, result) {
     }
 }
 
-slideText("starting", "rise-z.github.io/site/", "");
+slideText("starting", "risej.github.io/site/", "");
