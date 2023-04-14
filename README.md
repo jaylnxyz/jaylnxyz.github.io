@@ -1,15 +1,13 @@
-<div align="center">
-    <h1>rise! 🍉</h1>
-</div>
+<h1 align="center">rise! 😵‍</h1>
 
 ### about
 this is my website! mainly just a basic info center.
 
-![https://github.com/rise-z/site/blob/main/LICENSE](https://img.shields.io/github/license/rise-z/site?color=%23ad2a2a&style=for-the-badge)
-![](https://img.shields.io/github/languages/code-size/rise-z/site?color=%23ad2a2a&style=for-the-badge)
-![](https://img.shields.io/github/directory-file-count/rise-z/site?color=%23ad2a2a&style=for-the-badge)
-![](https://img.shields.io/github/languages/top/rise-z/site?color=%23ad2a2a&style=for-the-badge)
-![](https://img.shields.io/w3c-validation/html?color=%23ad2a2a&style=for-the-badge&targetUrl=https%3A%2F%2Fraw.githubusercontent.com%2Frise-z%2Fsite%2Fmain%2Findex.html)
+![https://github.com/risej/site/blob/main/LICENSE](https://img.shields.io/github/license/risej/site)
+![](https://img.shields.io/github/languages/code-size/risej/site)
+![](https://img.shields.io/github/directory-file-count/risej/site)
+![](https://img.shields.io/github/languages/top/risej/site)
+![](https://img.shields.io/w3c-validation/html&targetUrl=https%3A%2F%2Fraw.githubusercontent.com%2Frisej%2Fsite%2Fmain%2Findex.html)
 
 ### credit
 [Vincent Garreau](https://github.com/VincentGarreau) for [particles.js](https://github.com/VincentGarreau/particles.js)
