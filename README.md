@@ -1,14 +1,14 @@
-<h1 align="center">rise! 😵‍</h1>
+<div align="center">
+  <h1>rise! 😵‍</h1>
+  <h3>my site!</h3>
+  <img src="https://img.shields.io/github/license/risej/site" alt="license"</img>
+  <img src="https://img.shields.io/github/directory-file-count/risej/site" alt="file count"</img>
+  <img src="https://img.shields.io/github/languages/code-size/risej/site" alt="code size"</img>
+  <img src="https://img.shields.io/github/languages/top/risej/site" alt="languages"/>
+</div>
 
 ### about
 this is my website! mainly just a basic info center.
-
-![https://github.com/risej/site/blob/main/LICENSE](https://img.shields.io/github/license/risej/site)
-![](https://img.shields.io/github/languages/code-size/risej/site)
-![](https://img.shields.io/github/directory-file-count/risej/site)
-![](https://img.shields.io/github/languages/top/risej/site)
-![](https://img.shields.io/w3c-validation/html&targetUrl=https%3A%2F%2Fraw.githubusercontent.com%2Frisej%2Fsite%2Fmain%2Findex.html)
-
 ### credit
 [Vincent Garreau](https://github.com/VincentGarreau) for [particles.js](https://github.com/VincentGarreau/particles.js)
 
