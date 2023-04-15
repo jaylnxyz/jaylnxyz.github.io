@@ -1,53 +1,39 @@
 :root {
-    --main-bg-color: #000000;
-    --main-txt-color: #dbdbdb;
-    --main-link-color: #919191;
-    --glow-color: #ad2a2a;
+    --true-gray: #3f3e40
 }
 
 body {
-    background-color: var(--main-bg-color);
-    color: var(--main-txt-color);
-    font-family: monospace;
+    background-color: black;
+    color: white;
     overflow: hidden;
 }
 
-#start, #start-message, #card, #particles-js {
-    position: fixed;
-    margin: 0;
-    padding: 0;
+#start {
+    height: 100vh;
+    width: 100vw;
 }
 
-#start, #particles-js {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+#start-message {
     pointer-events: none;
 }
 
+#main {
+    display: none;
+}
+
 #start-message, #card {
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#card, #socials {
-    filter: drop-shadow(0 0 10px var(--glow-color));
-    display: none;
-}
-
 #socials {
-    text-align: center;
-    font-size: 20px;
-
     position: fixed;
     bottom: 0;
-    transform: translateX(-50%);
-    left: 50%;
-}
 
-a {
-    text-decoration: none;
-    color: var(--main-link-color);
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-size: 20px;
 }
