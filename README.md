@@ -9,7 +9,3 @@
 
 ### about
 this is my website! mainly just a basic info center.
-### credit
-[Vincent Garreau](https://github.com/VincentGarreau) for [particles.js](https://github.com/VincentGarreau/particles.js)
-
-[MF DOOM](https://www.instagram.com/mfdoom/) for [the song used](https://www.youtube.com/watch?v=bGCHT6fIEBw)
