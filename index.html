@@ -7,32 +7,35 @@
     <title>jayln</title>
 
     <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="src/index.js" defer></script>
-
-    <link rel="shortcut icon" href="assets/pfp.png" type="image/x-icon">
-    <meta content="jayln" property="og:title" />
-    <meta content="hello, i'm jayln." property="og:description" />
-    <meta content="https://jayln.xyz/" property="og:url" />
-    <meta content="#3f3e40" data-react-helmet="true" name="theme-color" />
 </head>
 <body>
-    <h1>jayln</h1>
-    <p id="time">[time], today is a new day.</p>
-    <hr>
-    <p>
-        hello, i'm jayln, i live in the usa and i make videos, software, literature, etc.
-
-    </p>
-    <footer>
-        <hr>
-        <a href="https://jayln.xyz/"><img src="assets/webring.png" alt="webring"></a>
-        <hr>
-        <a href="https://github.com/jaylnxyz">github</a>
-        <a href="https://twitter.com/jaylnxyz">twitter</a>
-        <a href="https://www.youtube.com/channel/UCII2k-_K49TJ7Kz3Wh6ALqA">youtube</a>
+    <div id="content">
+        <div id="title">
+            <i class="fa-solid fa-hourglass-start" id="hourglass"></i>
+            <a href="/"><h1 id="title-text">jayln</h1></a>
+        </div>
         <br>
-        <br>
-        <a href="https://jayln.xyz/">jayln.xyz</a>
-    </footer>
+        <hr>
+        <h1 id="time">date</h1>
+        <hr>
+        <div id="links">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-envelope" id="link-icon"></i>
+                    <a href="src/pages/contact.html">contact</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-person"></i>
+                    <a href="src/pages/info.html">info</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-photo-film"></i>
+                    <a href="src/pages/gallery.html">gallery</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
