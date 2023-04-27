@@ -1,31 +1,51 @@
-:root {
-    --bg-color: #111824;
-    --anchor-color: #426399;
-    --anchor-hover-color: #9c5633;
-}
-
 body {
-    background-color: var(--bg-color);
+    background-color: black;
     color: white;
-    overflow: hidden;
-
-    margin: 10%;
+    font-family: Constantia, monospace;
 }
 
-h1 {
-    font-size: 50px;
-}
-
-footer {
-    text-align: center;
-    text-decoration: none;
+hr {
+    color: white;
 }
 
 a {
-    font-size: 20px;
-    color: var(--anchor-color);
+    color: white;
 }
 
-a:hover {
-    color: var(--anchor-hover-color);
+a:hover, li:hover {
+    color: orange;
+}
+
+li {
+    font-size: 20px;
+    list-style: none;
+}
+
+#content {
+    padding: 5%;
+}
+
+#hourglass {
+    font-size: 500%;
+}
+
+#title-text {
+    display: inline;
+    position: absolute;
+    padding-left: 1%;
+}
+
+#links {
+    font-family: Constantia, monospace;
+}
+
+/* info.html */
+
+#autism {
+    align-items: center;
+    text-align: center;
+}
+
+#autism-icon {
+    width: 20%;
 }
