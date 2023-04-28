@@ -33,19 +33,9 @@ li {
     display: inline;
     position: absolute;
     padding-left: 1%;
+    text-decoration: underline;
 }
 
 #links {
     font-family: Constantia, monospace;
-}
-
-/* info.html */
-
-#autism {
-    align-items: center;
-    text-align: center;
-}
-
-#autism-icon {
-    width: 20%;
 }
