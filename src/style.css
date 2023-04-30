@@ -1,41 +1,39 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: Constantia, monospace;
+    font-family: monospace;
+    padding-left: 20%;
+    padding-top: 17.5%;
 }
 
-hr {
-    color: white;
+p {
+    font-size: 150%;
 }
 
-a {
-    color: white;
+#pfp-div {
+    display: flex;
+    align-items: center;
 }
 
-a:hover, li:hover {
-    color: orange;
+#pfp {
+    width: 10%;
+}
+
+#pfp-title {
+    padding-left: 1%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 li {
-    font-size: 20px;
-    list-style: none;
-}
-
-#content {
-    padding: 5%;
-}
-
-#hourglass {
-    font-size: 500%;
-}
-
-#title-text {
     display: inline;
-    position: absolute;
-    padding-left: 1%;
-    text-decoration: underline;
 }
 
-#links {
-    font-family: Constantia, monospace;
+li {
+    padding: 0.5%;
+}
+
+#icon {
+    width: 2%;
 }
