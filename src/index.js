@@ -6,4 +6,3 @@ const time = date.toLocaleDateString("default", {
 }).toLowerCase()
 
 document.getElementById("time").innerHTML = `${time}, today is a new day.`
-// github pages error update
